@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("../img/darkdesk.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 16pt;
+    padding: 10px 20px;
+}
+
+div#corpo-form{
+  /*  background-color:red;*/
+    width: 420px;
+    margin: 150 auto 0px auto;
+} 
+
+div#corpo-form h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover{
+    text-decoration: underline;
+}
