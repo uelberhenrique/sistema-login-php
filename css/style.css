@@ -3,6 +3,8 @@
     padding: 0px;
 }
 
+
+
 body {
     background-image: url("../img/darkdesk.jpg");
     background-repeat: no-repeat;
@@ -20,15 +22,23 @@ input{
     border: 1px solid black;
     font-size: 16pt;
     padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.01);
+    outline: none;
 }
 
 div#corpo-form{
   /*  background-color:red;*/
     width: 420px;
-    margin: 150 auto 0px auto;
+    margin: 130 auto 0px auto;
 } 
 
-div#corpo-form h1 {
+div#corpo-form-cad{
+    /*  background-color:red;*/
+      width: 420px;
+      margin: 80px auto 0px auto;
+  } 
+
+div#corpo-form h1, #corpo-form-cad h1 {
     text-align: center;
     padding: 20px;
 }
@@ -38,8 +48,37 @@ a{
     color: white;
     text-decoration: none;
     text-align: center;
+    margin-top: 5px;
 }
 
 a:hover{
     text-decoration: underline;
+}
+
+input[type=submit]{
+    background-color: #FF0066;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+
+/*WEBKIT PARA MUDAR COR DO PLACEHOLDER */
+
+::-webkit-input-placeholder { /* Webkit Browser */
+    color: #fff;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #fff
+}
+
+::-moz-placeholder { /*Mozilla Firefox 19+ */
+    color: #fff;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #fff
 }
