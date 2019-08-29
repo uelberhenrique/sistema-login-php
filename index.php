@@ -12,8 +12,8 @@
 
             <form method="POST" action="processa.php">
 
-                <input type="email" placeholder="Usuário">
-                <input type="password" placeholder="Senha">
+                <input type="email" name="email" placeholder="Usuário">
+                <input type="password" name="senha" placeholder="Senha">
                 <input type="submit" value="Entrar">
                 <a href="cadastrar.php">Ainda não é Inscrito? <strong>Cadastre-se!</strong></a>
 
