@@ -23,6 +23,7 @@ input{
     padding: 10px 20px;
     background-color: rgba(255, 255, 255, 0.01);
     outline: none;
+    color: whitesmoke;
 }
 
 div#corpo-form{
@@ -80,4 +81,31 @@ input[type=submit]{
 
 :-ms-input-placeholder { /* Internet Explorer 10+ */
     color: #fff
+}
+
+div#msg-sucesso{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(50, 205, 50, .3);
+    border: 1px solid rgba(34, 139 , 34);
+    text-align: center;
+}
+
+div#msg-sucesso a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 3px;
+}
+
+div.msg-erro{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(250, 128, 114, .3);
+    border: 1px solid rgba(165, 42, 42);
+    text-align: center;
 }
